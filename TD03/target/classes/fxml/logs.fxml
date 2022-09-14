@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TableView fx:id="tableLogs" prefHeight="400.0" prefWidth="600.0">
+        <columns>
+          <TableColumn fx:id="timeCol" prefWidth="122.39999085664749" text="Timestamp" />
+          <TableColumn fx:id="sortCol" prefWidth="108.79998779296875" text="Sort Type" />
+            <TableColumn fx:id="sizeCol" prefWidth="119.20008850097656" text="Max size" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>
